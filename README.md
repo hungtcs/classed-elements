@@ -5,8 +5,8 @@ This tool is inspired by styled-components and aims to streamline the developmen
 
 ## Installation
 
+- [React](./packages/react/README.md)
 - [Solidjs](./packages/solidjs/README.md)
-- React: TODO
 
 ## Usage
 

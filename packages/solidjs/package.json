@@ -19,6 +19,13 @@
   "directories": {
     "lib": "lib"
   },
+  "keywords": [
+    "react",
+    "solid",
+    "solidjs",
+    "tailwind",
+    "tailwindcss"
+  ],
   "dependencies": {
     "@classed-elements/utils": "workspace:^"
   },
@@ -31,5 +38,15 @@
   },
   "peerDependencies": {
     "solid-js": "^1.8.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hungtcs/classed-elements.git"
+  },
+  "author": "hungtcs <hungtcs@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hungtcs/classed-elements/issues"
+  },
+  "homepage": "https://github.com/hungtcs/classed-elements#readme"
 }
