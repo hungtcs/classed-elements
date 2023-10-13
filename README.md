@@ -18,10 +18,22 @@ npm install classed-elements
 ```tsx
 import classed from "classed-elements";
 
-const Wrapper = classed.div`relative w-[100px] h-[100px] bg-blue-500`;
+function Hello(props: { class?: string; name: string }) {
+  return <p class={props.class}>Hello {props.name}!</p>;
+}
+
+const WhiteHello = classed(Hello)`text-white`;
+
+const Wrapper = classed.div`relative w-[200px] h-[100px] bg-blue-500`;
 
 export function App() {
-  return <Wrapper>App Content</Wrapper>;
+  return (
+    <Wrapper>
+      <span>App Content</span>
+      <Hello name="Github" />
+      <WhiteHello name="Classed" />
+    </Wrapper>
+  );
 }
 ```
 
