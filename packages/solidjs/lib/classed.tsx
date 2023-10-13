@@ -1,4 +1,4 @@
-import { domElements, SupportedHTMLElements } from "@classed-elements/utils";
+import { domElements, type SupportedHTMLElements } from "@classed-elements/utils";
 import type { Component, ComponentProps, ValidComponent } from "solid-js";
 import { Dynamic } from "solid-js/web";
 
