@@ -1,0 +1,35 @@
+{
+  "name": "@classed-elements/solidjs",
+  "description": "classed-elements is a utility that simplifies the process of reusing components with Tailwind CSS in SolidJS",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@classed-elements/utils": "workspace:^"
+  },
+  "devDependencies": {
+    "solid-js": "^1.8.1",
+    "vite": "^4.4.5",
+    "vite-plugin-checker": "^0.6.2",
+    "vite-plugin-dts": "^3.6.0",
+    "vite-plugin-solid": "^2.7.0"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.8.1"
+  }
+}

@@ -1,6 +1,6 @@
+import { domElements, SupportedHTMLElements } from "@classed-elements/utils";
 import type { Component, ComponentProps, ValidComponent } from "solid-js";
 import { Dynamic } from "solid-js/web";
-import domElements, { SupportedHTMLElements } from "./dom-elements";
 
 export type ClassedElement<C extends ValidComponent> = (classes: TemplateStringsArray) => Component<ComponentProps<C>>;
 

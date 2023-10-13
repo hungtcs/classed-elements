@@ -1,12 +1,17 @@
-# @classed-elements/{react/solidjs}
+# @classed-elements/solidjs
 
-`classed-elements` is a utility that simplifies the process of reusing components with Tailwind CSS in SolidJS or React.
-This tool is inspired by styled-components and aims to streamline the development of reusable tailwind css components in your SolidJS / React applications.
+[![npm version](https://badge.fury.io/js/@classed-elements%2Fsolidjs.svg)](https://badge.fury.io/js/@classed-elements%2Fsolidjs)
+
+`@classed-elements/solidjs` is a utility that simplifies the process of reusing components with Tailwind CSS in SolidJS.
+This tool is inspired by styled-components and aims to streamline the development of reusable tailwind css components in your SolidJS applications.
 
 ## Installation
 
-- [Solidjs](./packages/solidjs/README.md)
-- React: TODO
+```shell
+pnpm add @classed-elements/solidjs
+# or
+npm install @classed-elements/solidjs
+```
 
 ## Usage
 

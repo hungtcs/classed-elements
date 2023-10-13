@@ -138,4 +138,4 @@ const elements = [
 
 export type SupportedHTMLElements = (typeof elements)[number];
 
-export default new Set<SupportedHTMLElements>(elements);
+export const domElements = new Set<SupportedHTMLElements>(elements);

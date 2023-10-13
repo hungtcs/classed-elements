@@ -1,4 +1,4 @@
-import classed from "../lib";
+import classed from "@classed-elements/solidjs";
 
 function Hello(props: { class?: string; name: string }) {
   return <p class={props.class}>Hello {props.name}!</p>;

@@ -8,13 +8,11 @@ export default defineConfig({
     lib: {
       entry: "./lib/index.ts",
       formats: ["es"],
+      fileName: "index",
     },
     rollupOptions: {
-      external: ["solid-js", "solid-js/web"],
+      external: ["solid-js", "solid-js/web", "@classed-elements/utils"],
     },
   },
-  plugins: [dts({ tsconfigPath: "tsconfig.lib.json" }), solid(), checker({ typescript: true })],
-  server: {
-    port: 1024,
-  },
+  plugins: [dts(), solid(), checker({ typescript: true })],
 });

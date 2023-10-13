@@ -1,0 +1,25 @@
+{
+  "name": "@classed-elements/utils",
+  "description": "classed-elements is a utility that simplifies the process of reusing components with Tailwind CSS in SolidJS",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
