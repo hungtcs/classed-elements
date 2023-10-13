@@ -3,14 +3,12 @@
   "description": "classed-elements is a utility that simplifies the process of reusing components with Tailwind CSS in SolidJS",
   "version": "0.0.1",
   "type": "module",
-  "main": "./dist/classed-elements.umd.cjs",
   "types": "./dist/index.d.ts",
   "module": "./dist/classed-elements.js",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/classed-elements.js",
-      "require": "./dist/classed-elements.umd.cjs"
+      "import": "./dist/classed-elements.js"
     }
   },
   "files": [
