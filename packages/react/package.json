@@ -1,7 +1,7 @@
 {
   "name": "@classed-elements/react",
   "description": "classed-elements is a utility that simplifies the process of reusing components with Tailwind CSS in React",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "exports": {
     ".": {
