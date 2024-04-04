@@ -1,7 +1,7 @@
 {
   "name": "@classed-elements/utils",
   "description": "classed-elements is a utility that simplifies the process of reusing components with Tailwind CSS",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "exports": {
     ".": {
